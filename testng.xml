@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ParaBank Automation Suite" verbose="1">
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.parabank.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Registration Tests">
+        <classes>
+            <class name="com.parabank.tests.RegistrationTest"/>
+        </classes>
+    </test>
+
+    <test name="Account Overview Tests">
+        <classes>
+            <class name="com.parabank.tests.AccountOverviewTest"/>
+        </classes>
+    </test>
+
+    <test name="Transfer Funds Tests">
+        <classes>
+            <class name="com.parabank.tests.TransferFundsTest"/>
+        </classes>
+    </test>
+
+    <test name="Bill Pay Tests">
+        <classes>
+            <class name="com.parabank.tests.BillPayTest"/>
+        </classes>
+    </test>
+
+    <test name="Find Transactions Tests">
+        <classes>
+            <class name="com.parabank.tests.FindTransactionsTest"/>
+        </classes>
+    </test>
+
+    <test name="Update Contact Info Tests">
+        <classes>
+            <class name="com.parabank.tests.UpdateContactInfoTest"/>
+        </classes>
+    </test>
+
+    <test name="Request Loan Tests">
+        <classes>
+            <class name="com.parabank.tests.RequestLoanTest"/>
+        </classes>
+    </test>
+
+    <test name="Logout Tests">
+        <classes>
+            <class name="com.parabank.tests.LogoutTest"/>
+        </classes>
+    </test>
+	<test name="Database Tests">
+    <classes>
+        <class name="com.parabank.tests.DatabaseTest"/>
+    </classes>
+</test>
+</suite>

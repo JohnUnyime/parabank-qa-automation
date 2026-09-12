@@ -1,0 +1,20 @@
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+
+# Maven
+target/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# H2 database files (if any get created on disk)
+*.db
+*.trace.db
