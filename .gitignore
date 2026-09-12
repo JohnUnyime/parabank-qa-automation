@@ -18,3 +18,4 @@ Thumbs.db
 # H2 database files (if any get created on disk)
 *.db
 *.trace.db
+echo "test-output/" >> .gitignoretest-output/
