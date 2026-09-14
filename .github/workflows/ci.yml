@@ -1,5 +1,5 @@
-nano .github/workflows/ci.ymlname: ParaBank Automation CI
 
+name: ParaBank Automation CI
 on:
   push:
     branches: [ main ]
